@@ -12,7 +12,7 @@ Only "structural gradient anlysis, GLM and reduced model" were shown in demo.m, 
 Example file
 1. The retrograde SC (and log view) of marmoset
 2. Gene expression similarity matrix of marmoset neuromodulatory receptors
-3. Example BOLD fMRI time series and corresponding dynamic FCs (using DCC approach) 
+3. Example BOLD fMRI time series (The dynamic FCs were derived using the DCC approach) 
 [SC, structural connectivity; FC, functional connectivity]
 
 Code involves modules:
