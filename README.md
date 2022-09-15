@@ -2,8 +2,7 @@
 Marmoset gradient and its dynamics
 
 Software (Windows system):
-MATLAB R2020a
-ITK-SNAP version 3.8.0
+MATLAB R2020a & ITK-SNAP version 3.8.0
 
 Main processing codes were listed in the folder "/main_custom_code/".
 
