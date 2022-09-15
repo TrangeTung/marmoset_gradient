@@ -7,8 +7,6 @@ ITK-SNAP version 3.8.0
 
 Main processing codes were listed in the folder "/main_custom_code/".
 
-Only "structural gradient anlysis, GLM and reduced model" were shown in demo.m, due to the large memory of functional fMRI data.
-
 Example file
 1. The retrograde SC (and log view) of marmoset
 2. Gene expression similarity matrix of marmoset neuromodulatory receptors
