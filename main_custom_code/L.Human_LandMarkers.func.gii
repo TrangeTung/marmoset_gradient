@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="31">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 76441605d20536d81034a64c9d34ec393aa528b9
+Commit Date: 2021-02-16 13:46:47 -0600
+Compiled with OpenMP: YES
+Compiler: cl.exe (C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64)
+Compiler Version: 19.0.24215.1
+Compiled Debug: NO
+Operating System: Windows
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[E:\rsfMRI_marmoset\fMRI_code_Trange\workbench\bin_windows64\wb_command.exe -volume-to-surface-mapping E:\rsfMRI_marmoset\fMRI_code_Trange\PlanB_code\Human_LandMarkers.nii E:\rsfMRI_marmoset\fMRI_code_Trange\HCP_MMP_v1.0\fsaverage5\lh.inflated.gii E:\rsfMRI_marmoset\fMRI_code_Trange\PlanB_code\L.Human_LandMarkers.func.gii -ribbon-constrained E:\rsfMRI_marmoset\fMRI_code_Trange\HCP_MMP_v1.0\fsaverage5\lh.white.gii E:\rsfMRI_marmoset\fMRI_code_Trange\HCP_MMP_v1.0\fsaverage5\lh.pial.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[E:/rsfMRI_marmoset/fMRI_code_Trange/MBM_v3.0.1]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2SESglAARVGKNIfAUF0CWUf+p9NdC8XkUhy2YdJCgRnXYHMTjlug/EHPKa/e/rIMAADg9/T5NqRuAAAAgCXewz4+ivMxdQcAAAAAAAAAwNoU16n57rOsYuoWAAAAAAAAAACW2Y2vJnUDAAAAAAAAwNrd2y6c5iHeDpdYb4IfFgAAAAAAAACAv/YBVOYPQg==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztzqENwlAYhdEGhWkCO0BS8cICbf9OAr4JAzABFokDNMswAQaBQ2MRKEQF6iVwjr1XfEUBb/302ORuAAAAAAAAAADg02b3rBdp1OXuAAAAAAAAAAAAAIB/sUyTNp1PcbtWkbsFAAAAAAAAAAAAAAAAAAAAAH7Jar1vh7bZ/dHMy0vUcYhyvB38AQAAfOMFvXMQFg==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3LENglAARVFaIy1bEAeAfEoZgJoalqCmoLd3AVawN8bGxBGYw8QVDPkYzpngLvBekgAAAAAA/6IZhxC7AQAAAGBNfb6E13kqY3cAAAAAAAAAAAAAAPxqvh2++/DHO6titwAAAAAAAOxZ+qz9+gIAAAAAAAAAAACwunvXFqfrpTqGxt8IAMCGfAAeXg51</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GKAIAAE=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GKAIAAE=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GKAIAAE=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3SEKAlEQBuAHm617BcEbiLuieINlkyaTt/AWYtVgF2xi9gSbPYOYDAbxAAZBeD73+8rUv83APOaFAL/lug9F7AwA0Ea3TqMHw4fmj8UgdgYAgNRll14ZOwMAAAAA0G51Nbb7BQD4stkmDF/10ORmLQAAAAAAAAAAgDeq3bG/XJ/c3gBI3Gg78WYWAAAASFZ3dS+n58yfNQAAAAAAAAAAAAAA/LUnhgsUDQ==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztzrEJwkAAAMAHFxEyhv9fxNKJLFM6gk2abJI28LVl2qAj5MEp5EXvJrgQAAD+W5lrbH0AAAAAAAAAPqs8Drn1AQAAAAAAAAAAAADgl7xu13jej2mpQ97GPneXZ2p9AgAAAAAAAAAAAAAAAAAAAAC+x31aT60PAABvbLUQ8g==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3LENQVEYhuE7gQE0KtGQG6VwThSivInoLKFwKxqmUOg1RjCERQwgopDYQCI5R+7zTPAO8P1/UQDkoV1NY+oGAAAAAIAma9WrceoGAP7LbbkPcXQOqTsAAAAAAADIQ9kduBEDAACysas79tEAAAAAAHytd5lNUjcAAAAAAAAAAAAAQFM8T6+wGD4+f+z6m21c36/xOD/Y9AIAAAAA8FNvKAESXA==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3L0JwlAAhdFU6R1D/OmEkOiLoEtY24RY2dmndCInyBRiL6niAoK9TSA8xHMm+Aa43CQBAMYyn5RF7AYAAAAAAICh9tNjfknT0FdliN0CAAAAAAAAAADAf9i9ljZrAAAjus0em9gNAAAAAAAAAAAAAAAAAMDvWmxXoTl14f48fD4iznW7ztprEbsLAAAAAAC+eQNSLhD2</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GKAIAAE=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2aERgDAURMEvM0MTqSNxGPpIFzRDTwgElgKQaBQqBodgVz9x/iIAAIDHvJ316w0AAAAAAAAA9FKO8rZt01GW8ar7sPqAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+6gbyEwig</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt26ENg1AUBVAMBnaAAfAo+KaOcWpgBBJkTU1TAaM0naADdBQUDpKSlGDOUTe55g3wbhQBAAAAAAAA/C6/JmHJU53WZ94CAAAAAAAAAMA+5fdRbXWf9ukXBAAAAAAAAAAAAAAAAAAAAP7k3dxWd/zDq6jiex7GSxf6NLP1BwAAAAAAAAA40Az+/g0z</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3aENwlAQgOEqlqhjBYJq+xwJzMEGTNA5CgpdHDgsAoNokAgSFsDX4FCkCQnhNfB9+sTvL7lLEl7ZrO5F7AYAAAAAAACATxvV8+cutEqHIWYLAAAAAPyrxbXOYzcAAAAAv21/S7PYDQAAAAAAAAAAAAAAAADQZ5Ppzi0gAIA3nGdtPi63nb9OBsdlOKxP4dJkRdccAAAAAAAAwDc9ANabFPQ=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3KERglAAgGHOyhSSyQS5RzIYKaxhcQe7xcLBACYjk3hEj4zBDdzAO87DV75vgn+CP0kAAAAAAIA13bf7MnYDAACs4TjcqtgNAAAAAMB359dhF7sBAAAAAIDfdfkYsqIPsTsAAAAAAAAAAAAAAAAAAAAAYIlLfi3bMa0em3eop2c4NbOHBgAAAPBXH6hEEfU=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2qERgmAYgGGCW9gIICsg/MFMYg2DO1CZxuQE3pkoRidwCpmAxHkfdzzPBO8Ab5YB//Ss3nV0AwDsyXj6naMbAAAAtmg4HFN0AwAAAAAAAACs0eeftqxu6dtdU/G4+4YBAAAAAAAAAAAAAAAAAIBwl9fURDcAAAAAAAAAAAAAAMtmkO0NDA==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztzrENgkAAAEAKS1saql/AyoSC/5+DOZyCxJYFsJQB2MDSGUxcw4YhTHgxdxNcVQEAAAD8l9s85NIHAAAAAAAAAL73bEMqfQAAAAAAAGAfjssrhcfYlX4AAAAAAAAAbOncXOL71OepvubP/RBLfwAAAAAAAAAAAAAAAAAAfs0KKnoM+Q==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3bENQEAAQFELaI3BAkcrdNfptERpEGxjDHOYQmsACZH3Jvgb/CQBAAAAAAAAAOAuxiPk2VS+3QEAAAAAAAAAAAA8ZyjW0LRpVXdbeLsFAAAAAAAAAAAAAAAAAAAAgG8a5748l93DCgAAAAB+4gJgvQou</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2rENglAARVEaCmdwE8P/TmBM6FyDJSyMG6iFBS3SYWLvLvQ0NLKCicU3cM4Et38vywAAAIB/lF/Gon8/YuoOAAAAAAAAAH7XHzZF6gYAAAAAAOB7+9U21NUupO4AAAAAAAAAYBna8hOO62scTl1sznd7NQAAAAAAAAAAs/F63vxhAAAAAACApCZykRND</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2qENwlAABNAKEpIGCyQkBFYgBPPp/wMwAJY10O0ULEAYoBPg6lAMgERj6ggrYNrAe+bs+bssAwAAAOCfDY/XYrlbpUO8bbvuAgAAAAAAAMD3ZuN7eGxOcX1e2H8BAAAAAACAXijzS/hk29R2TAAAAAAAAOjIaN4W08Ekvaoy5dUzdt0HAAAAAAAAAAAAfkm9D755AAAA0HNvwx0TtQ==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3LEJwlAARdEgzpFOcAeTDwbcIWBj5Qh2WSGlhRsIukfaYJUBHCEBO8EBopX/F+dMcBd4L8sAAAAA+Ld7k29iN/zidjiH2A0AAAAAAAAAKasWqyJ2wzev4Rge0z5su6mM3QIAAAAAAAAAAAAAAAAApKsex6JdL8Nzd/r85/bXS/I7SgAAAAAAAAAAAAAAAACY8wYePRK+</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztzqEOQVEAgGFJUzSzaYIsuc5RbvMEihdQTaMINomkiDZvIBBlTdJtJkuaeQfbGb6v/PUvFAAA+ITNutRJ/QAAAAAAAAD8l/50FWrDeUj9AQAAAAAAAAAAAAAA3UY9vluetONplYfZ8hkPx0XMh8eY+g0AAAAAAPgN2904Oxez2LvcwvVxz1L/AAAAAAAAAAAAAADfoTmohspo30r9AUAaL/N9Gbo=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2bEKAQEAxnEvoQw2RUYWxTkbWYjBYPcAN1uVwWa6KB7iUkaP4DXwDvIE6upyZ/j91m/59n+pBADkbVtZ9+rjfVD0DwCAXyk/j73X7Bq+b9Ow6C8AAAAAAAAAZNO+T7RfAAAAAACAFHatoa4CAAAAAAAA8CcOq7hfjUbhYv4IO8vaoJFsNF0AAAAAAAAAACCVpBl1v69xcD5dgvzeAAAAAACQ1Qcz0heA</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3a8OQWEYwOETXABNExRFUc8fdyApJttcAE1QXIFisynKKTbFLQgm20iaTXANdq7hhM+O5ynvF3/x3d7wRRFQ1rVV64duAAAAfkc+HMeD2yUJ3QEAVF/zU7dzAAAAAAAAAAAAAABBrE/ntJjT/J6GbgEAAAAAAACAsjbdbfbYH7Pn++AODgAAABWy6KziXj7Kiveu/Uomy3kWugkAAACA/xI3Zv6bAwAAAAAACOwLiXAYuA==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3a0Ng1AUgFGS1neGTlDPzzPsUoMrpgNUoZowBQ7XHZBdoJIVakhQtaSC5JFwjrrJNd8CNzdJYF3Pa5PHbgAAAAAAAAAAAJbV7Zj95lt1DjFbAAAAtib9ZG4jAAAAAAAAAAB26ts90tgNAAAAAAAAAAAAAAAAAAAAAMA+XV5DsbS/Hw/hPfVhLE9+kQL8aQZPVA/u</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3LENgkAAheEbwwFI3EE4amNr6QQUTsAOVIxBTExgAKewchETE5Y4c0f4vgn+5rUvBAAAAAAAAOCf2tvU5G6APfl9FpsDAAAAAAAA2Jj52J1yNwBAqV7VNeZuAAAAAAAAAAAAAAAAAADSGM5dnbsBAKBU/eVZPw5jfH/vvhYAAAAAAABIZgWLgQ59</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3bENQFAABFCR0GjsYAyG0Gixjl5nCrNI5BcGUUpYQCNf8d4EN8DlLkkA+EJVTk3sDAAAAAAA/Ft2hjp2BgAAAAAAAAAAAAAAAAAA4DHniy1JAAAAAAAAAADgd8a1bfYi3P2moUvro998HQAAAAAAAAAAwEsXybILRQ==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3KEOQWEAhuF/ggmmuAVBo3N+01yJ7WwuQDkdWRA0V0CxCecSzC1oks0NmCYLx36257mCt37lCwGgWof2LqZuAAAA4H89Jqth6gYA+DWncXeQugEAgBDyyz5L3QAAAAAAAAAAAAAAVVgu+rGV37JzWR+lbgEAAAAAAIBvuRbbrGiWcVZb+7wFAAAgufum996nx2fHVgUAAAAAAPhz82kjpm4AAADgMy/1AxY7</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt2bENgkAAQFEWcAhLKhqtuKOxMxZs4DouQAgxsSXGzkImMLQMYGPiDrauYEEgJO9N8PufJAAAAAAAwNJlz298XLrQbut87hYAAAAAAAAA+NfmtA/nPi1Wx5vfDQAAAAAAAAAAAAAAAAAATOr6Wcfd8Ar3Q1lU7ybO3QMAAAAAAAAAAAAAjO8HAeISaQ==</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3LENglAUBVAKY6zo2MDGxgWQn0jvBMxgLJyAggFoHMHWniXosXYOmIDCRDCEc9qXl9z+JjeKAABYs3hfnMZuh+4R5swCAAAAAAAAwDReu360GwYAAFiC5HPPmuMt/XcOAAAAAAAAAACAX7hs4uzbn6TYhvpahXeb2wkEAAAAAGCxyufZHhIAAAAAAAAAAAAAALMaACgUDq4=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ ribbon constrained]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3KERgmAYx2EGkWYhOQCfDOAoFoqd5gAEJnAEA4Fm0QHsTgBUAndugEHO7857ngl+7S3/e5Pk//Xzcx+7AQAAAACA36mqSzjfujx2BwAAAADAmoYxtYkFAAAAAAAAAAAAAAAAAAAAAPigvubFI90Wm1PrZwsAAAAseB13IXYDAHxjKptwuGfuGQAAAAAAsOgNbsMTRw==</Data>
+</DataArray>
+</GIFTI>
