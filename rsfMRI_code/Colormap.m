@@ -88,12 +88,7 @@ if contains(statistic_file,'nii')
     
     Func_Img_3D_raw(isnan(Func_Img_3D_raw))=0;
     Func_Img_3D_raw = Func_Img_3D_raw;
-%     for i=1:size(Func_Img_3D_raw,3)
-%        Func_Img_3D_raw(:,:,i) = medfilt2(Func_Img_3D_raw(:,:,i),[10 10]);
-%     end
-%     Func_Img_3D_raw(:,end-3:end,:)=[];
-%     Func_Img_3D_raw = imresize3(Func_Img_3D_raw,[114 80 38],'linear');
-    
+
     if ~strcmp(mask_name, 'no#$')
         lmask = spm_read_vols(spm_vol(mask_name));
         f_mask = abs(1-lmask);
@@ -101,8 +96,6 @@ if contains(statistic_file,'nii')
         f_mask = [];
     end
     
-    %Func_Img_3D_raw = permute(flip(Func_Img_3D_raw,1),[1 3 2]);
-    %f_mask = permute(flip(f_mask,1),[1 3 2]);
 else
     error('the statistic file must be absolute URL files (string).')
 end
@@ -132,7 +125,7 @@ if ~ strcmp(template,'no#$')
     switch upper(method)
         case {'FDR','FWE','UNCORRECTED'}
             Mask_3D = MY_False_Postive_Correction(statistic_file,method,q);
-            %Mask_3D = permute(Mask_3D,[1 3 2]);
+            
             Func_Img_3D = Func_Img_3D_raw.*double(Mask_3D);
         otherwise
             Func_Img_3D = smooth3(Func_Img_3D_raw,'box',5);
@@ -155,44 +148,7 @@ end
 %     Img_RGB = MY_add_colorbar_RGB(Img_RGB,bar_value,'0+');
 %     imwrite(uint8(Img_RGB), strcat(dest,'\',strcat(mapname,'_nothres.tif')), 'tif');
 
-    
-    % corssline view
-    if ~isempty(CosView) && contains(CosView,'crossline')
-       [a,b,c] = size(Func_Img_3D);
-       % axis view
-       func = squeeze(Func_Img_3D(:,:,LOC(2)));
-       struc = squeeze(Template_Img_3D(:,:,LOC(2)));
-       IMG_A = MY_display_function_map_3D(func,bar_value,1,struc);
-       line1 = 255*insertShape(0*IMG_A,'line',[0,b-LOC(3),a,b-LOC(3)],'color','white','linewidth',1);
-       line2 = 255*insertShape(0*IMG_A,'line',[a-LOC(1),0,a-LOC(1),b],'color','white','linewidth',1);
-       IMG_A = IMG_A+line1+line2;
-       %imshow(uint8(IMG_A));
-       % sagittal view
-       func = squeeze(Func_Img_3D(LOC(1),:,:));
-       struc = squeeze(Template_Img_3D(LOC(1),:,:));
-       IMG_RGB = MY_display_function_map_3D(func,bar_value,1,struc);
-       line1 = 255*insertShape(0*IMG_RGB,'line',[0,c-LOC(2),b,c-LOC(2)],'color','white','linewidth',1);
-       line2 = 255*insertShape(0*IMG_RGB,'line',[LOC(3),0,LOC(3),c],'color','white','linewidth',1);
-       IMG_RGB = IMG_RGB+line1+line2;
-       IMG_B = imrotate(IMG_RGB,90);
-       %imshow(uint8(IMG_RGB));
-       % coronal view
-       func = squeeze(Func_Img_3D(:,LOC(3),:));
-       struc = squeeze(Template_Img_3D(:,LOC(3),:));
-       IMG_C = MY_display_function_map_3D(func,bar_value,1,struc);
-       line1 = 255*insertShape(0*IMG_C,'line',[0,c-LOC(2),a,c-LOC(2)],'color','white','linewidth',1);
-       line2 = 255*insertShape(0*IMG_C,'line',[a-LOC(1),0,a-LOC(1),c],'color','white','linewidth',1);
-       IMG_C = IMG_C+line1+line2;
-       %imshow(uint8(IMG_C));
-
-       blank = zeros([b+c,a+c,3]);
-       blank(1:b,1:a,:) = IMG_A;
-       blank(1:b-1,a+1:a+c,:) = IMG_B(2:end,:,:);
-       blank(b+1:b+c,1:a,:) = IMG_C;
-       %imshow(uint8(blank));
-       imwrite(uint8(blank), strcat(dest,'\',strcat(mapname,'_CrossLine.tif')), 'tif');
-    end
-
+   
 end
 
 function Img_RGB = MY_display_function_map_3D(Func_Img_3D,bar_value,slice,Template_Img_3D)
@@ -253,9 +209,7 @@ end
 function Img_RGB = MY_display_function_map_3D_nothreshold(Func_Img_3D,bar_value,slice)
 
 map_nothre_reshape = reshape(permute(Func_Img_3D(:,:,slice),[2 1 3]),[size(Func_Img_3D,2) size(Func_Img_3D,1)*numel(slice)]);
-%fig = ancestor(gcf,'figure');
-%defaultMap = get(fig,'defaultfigureColormap');
-%close(fig);
+
 defaultMap = parula(64);%
 
 % gdmap = [(0:31)'/31,(0:31)'/31,ones(32,1)];
@@ -337,7 +291,7 @@ switch flag
         if bar_value(3)== bar_value(4);bar_value(3)=0;end
         if bar_value(2)== bar_value(1);bar_value(2)=0;end
 
-        ti = insertText(colorbar,[ceil(leng*0.75)/2,ceil(tall*0.075)],['¡À',num2str(abs(round(bar_value(4),2)))],'FontSize', 8*pump,'TextColor',[255 255 255],'BoxColor',[0 0 0],'BoxOpacity',0,'AnchorPoint','Center');
+        ti = insertText(colorbar,[ceil(leng*0.75)/2,ceil(tall*0.075)],['Â¡Ã€',num2str(abs(round(bar_value(4),2)))],'FontSize', 8*pump,'TextColor',[255 255 255],'BoxColor',[0 0 0],'BoxOpacity',0,'AnchorPoint','Center');
         ti = insertText(ti,[ceil(leng*0.55)/2,ceil(tall*0.925)],['+',num2str(abs(round(bar_value(3),2)))],'FontSize', 8*pump,'TextColor',[255 255 255],'BoxColor',[0 0 0],'BoxOpacity',0,'AnchorPoint','Center');
         %     ti = insertText(ti,[ceil(leng*0.35)/2*3,ceil(tall*0.075)],['-',num2str(abs(round(bar_value(1),2)))],'FontSize', 8*pump,'TextColor',[255 255 255],'BoxColor',[0 0 0],'BoxOpacity',0,'AnchorPoint','Center');
         ti = insertText(ti,[ceil(leng*0.55)/2*2.5,ceil(tall*0.925)],['-',num2str(abs(round(bar_value(2),2)))],'FontSize', 8*pump,'TextColor',[255 255 255],'BoxColor',[0 0 0],'BoxOpacity',0,'AnchorPoint','Center');
