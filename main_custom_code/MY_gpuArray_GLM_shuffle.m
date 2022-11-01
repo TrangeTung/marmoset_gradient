@@ -9,7 +9,7 @@ S.dm = DM;
 S.fa = fa;
 S.sc = shuf_column;
 % S{i} = {Vec;DM;fa;shuf_column};
-S.mI = 100;
+S.mI = 1000;
 
 clear fa DM Vec
 
