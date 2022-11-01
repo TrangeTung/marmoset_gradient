@@ -11,15 +11,15 @@ S.dm = DM;
 S.fa = fa;
 S.sc = shuf_column;
 % S{i} = {Vec;DM;fa;shuf_column};
-S.mI = 100;
+S.mI = 1000;
 
 clear fa DM Vec
 
 [CCgpu,R2gpu] = arrayfun(@MY_GLM_CC_R2_estimate,S,'UniformOutput',false);
 clear S
 
-C = cell2mat(CCgpu)/100;
-R =  cell2mat(R2gpu)/100;
+C = cell2mat(CCgpu)/1000;
+R =  cell2mat(R2gpu)/1000;
 clear CCgpu R2gpu 
 % CC = gather(C);
 % R2 = gather(R);
